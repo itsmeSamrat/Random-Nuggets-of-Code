@@ -17,7 +17,7 @@ Thank you. 😊😊
 
 ## License
 
-This project is under MIT License - see the [License.txt](<insert link here>) file for more details.
+This project is under MIT License - see the [License.txt](https://github.com/itsmeSamrat/Random-Nuggets-of-Code/blob/main/license.txt) file for more details.
 
 ## Feedback
 
