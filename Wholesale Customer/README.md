@@ -11,6 +11,7 @@
 
 [Getting Started](#getting-started)
 
+## Getting Started
 
 - Clone the repo into your local machine.
 
