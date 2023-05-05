@@ -9,13 +9,13 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&center=true&vCenter=true&width=435&lines=Wholesale+Customer+Data+Analysis">
 </div>
 
-[getting started](#getting-started)
+[Getting Started](#getting-started)
 
 ## Description
 
 `OBJECTIVE: The objective of the project is to describe the variation in the different types of customer that the wholesale distributor interacts with, with the help of Machine Learning.`
 
-### About the Dataset
+## About the Dataset
 
 The dataset illustrates the clients of a wholesale distributor. It has the annual spending in monetary units on different kind of products like Fresh, Milk, Grocery, Frozen, Detergents_Paper, and Delicassen. The dataset is small with 440 rows and 8 columns. All the columns are of integer type.
 
@@ -30,13 +30,14 @@ The dataset illustrates the clients of a wholesale distributor. It has the annua
 7. **Channel**: who are the customers (integer, nominal). **Horeca (Hotel/Restaurant/Cafe) and Retail**
 8. **Region**: where does these customer live (integer,nominal) **Lisnon, Oporto and Other**
 
-### Step taken:
+## Step taken:
 
 Firstly, we clean the data and make sure it doesn't have any NaN values or duplicated values. Then we do EDA, in which we check for outliers, normalize the data, see the correlation between the variables, do feature scaling of the data.
 
 Here for the feature scaling, we have compared StandardScalar and MinMaxScalar. We look at the kde plot of each variable and found out that the StandardScalar feature scaling worked better for this set of data.
 
-We divide the data, we got from the feature scaling. As, this is a classification problem, we have used XGBoost Classifier. After all the hyper parameter optimization and we got an accuracy of 0.9015 or 90.15%, Precision of 90.13%, Recall of 90.15% with the time of 2.0ms for our testing data. Our model was not able to correctly predict about 13 data points which can be seen in the confusion matrix i.e the False Positive and False Negative. The accuracy of 90% also implies that, our model is not overfitted or underfitted
+We divide the data, we got from the feature scaling. As, this is a classification problem, we have used XGBoost Classifier. After all the hyper parameter optimization and we got an accuracy of 0.9015 or 90.15%, Precision of 90.13%, Recall of 90.15% with the time of 2.0ms for our testing data. Our model was not able to correctly predict about 13 data points which can be seen in the confusion matrix i.e the False Positive and False Negative. The accuracy of 90% also implies that, our model is not overfitted or underfitted.
+
 
 ## Getting Started
 
@@ -57,7 +58,7 @@ We divide the data, we got from the feature scaling. As, this is a classificatio
 
 ## License
 
-This project is under MIT License - see the [License.txt](<insert link here>) file for more details.
+This project is under MIT License - see the [License.txt](https://github.com/itsmeSamrat/Random-Nuggets-of-Code/blob/main/Wholesale%20Customer/license.txt) file for more details.
 
 ## Contact Me 📨
 
