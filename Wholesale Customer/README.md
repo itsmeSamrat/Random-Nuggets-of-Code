@@ -11,6 +11,18 @@
 
 [Getting Started](#getting-started)
 
+
+- Clone the repo into your local machine.
+
+```bash
+    git clone https://github.com/itsmeSamrat/Random-Nuggets-of-Code.git
+```
+
+- Install all the packages and libraries from requirement.txt file
+- Run the file as it is. It should run properly.
+- Try getting more accuracy with other ML or AI models.
+- Support by staring the repo 🙂😁. Thank You.
+
 ## Description
 
 `OBJECTIVE: The objective of the project is to describe the variation in the different types of customer that the wholesale distributor interacts with, with the help of Machine Learning.`
@@ -38,19 +50,6 @@ Here for the feature scaling, we have compared StandardScalar and MinMaxScalar. 
 
 We divide the data, we got from the feature scaling. As, this is a classification problem, we have used XGBoost Classifier. After all the hyper parameter optimization and we got an accuracy of 0.9015 or 90.15%, Precision of 90.13%, Recall of 90.15% with the time of 2.0ms for our testing data. Our model was not able to correctly predict about 13 data points which can be seen in the confusion matrix i.e the False Positive and False Negative. The accuracy of 90% also implies that, our model is not overfitted or underfitted.
 
-
-## Getting Started
-
-- Clone the repo into your local machine.
-
-```bash
-    git clone https://github.com/itsmeSamrat/Random-Nuggets-of-Code.git
-```
-
-- Install all the packages and libraries from requirement.txt file
-- Run the file as it is. It should run properly.
-- Try getting more accuracy with other ML or AI models.
-- Support by staring the repo 🙂😁. Thank You.
 
 ## Acknowledgement
 
